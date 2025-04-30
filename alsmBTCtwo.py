@@ -65,6 +65,9 @@ def gaussmf(x, c, s):
     z = np.exp(-(aux*aux)/2)
     return z
 
+def auto_gauss_granules(rules_number, x):
+    pass
+
 def gaussgranules(x):
     
     x1 = x[0]
